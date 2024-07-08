@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    background-image: url(https://static.toiimg.com/thumb/msid-77241489,width-1280,height-720,resizemode-4/77241489.jpg);
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: fit-content;
+    background:-webkit-linear-gradient(360deg, rgb(77, 171, 235),rgb(253, 251, 251));
+    padding: 5px 0;
+    z-index: 1000;
+    border-radius: 5px 5px 5px 5px;
+    opacity: 80%;
+}
+
+.navbar ul{
+    list-style-type: none;
+    margin: 5;
+    padding: 0;
+    text-align: center;
+}
+
+.navbar ul li{
+    display: inline;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    margin: 20;
+    font-size: 25;
+    padding: 5;
+    color: rgba(165, 88, 12, 0.897);
+}
+.navbar ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(178, 206, 22, 0.733);
+    background:-webkit-linear-gradient(120deg, rgb(77, 171, 235),rgb(253, 251, 251));
+    transition-duration: 0.3s;
+}
+.scrolled{
+    background-color:rgba(178, 206, 22, 0.733)!important;
+}
+.scrolled a{
+    color:rgba(165, 88, 12, 0.897)!important;
+}
+
+.content{
+    margin-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
